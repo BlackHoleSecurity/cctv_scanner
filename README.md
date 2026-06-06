@@ -29,6 +29,7 @@ This tool is intended for use **only on your own network** or devices for which 
 ## Installation
 1. Clone the repository (or copy the script to a directory).
 ```bash
+   sudo apt install nmap
    git clone https://github.com/BlackHoleSecurity/cctv_scanner.git
    cd cctv_scanner
 ```
@@ -49,7 +50,7 @@ Usage
 Run the script with Python:
 
 ```bash
-python3 scanner.py
+sudo python3 scanner.py
 ```
 
 Follow the on-screen instructions:
@@ -104,5 +105,5 @@ If you want to add new payloads or detect additional CVEs, please open an issue 
 
 ---
 
-Created with care by BlackHole Security
+Created with care by BlackHole Security <3
 
