@@ -29,7 +29,6 @@ This tool is intended for use **only on your own network** or devices for which 
 ## Installation
 1. Clone the repository (or copy the script to a directory).
 ```bash
-   sudo apt install nmap
    git clone https://github.com/BlackHoleSecurity/cctv_scanner.git
    cd cctv_scanner
 ```
