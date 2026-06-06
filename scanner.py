@@ -115,8 +115,6 @@ def is_valid_target(target):
     except:
         return False
 
-# ====================== ENHANCED PAYLOADS ======================
-
 def test_auth_bypass(ip, port):
     """Test common authentication bypass techniques - Enhanced payloads"""
     
@@ -413,8 +411,6 @@ def test_rce_vulnerabilities(ip, port):
     
     if not vulnerable:
         print(f"      [{R}x{RE}] No RCE vulnerabilities detected with {len(cmd_payloads)} payloads")
-
-# ====================== MAIN SCAN FUNCTION ======================
 
 def scan_with_nmap(target):
     try:
